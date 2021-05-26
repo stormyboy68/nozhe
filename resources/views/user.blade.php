@@ -19,7 +19,7 @@
             @php
              $address=dirname(__DIR__); 
             @endphp
-            {{$address}}
+            <p class="card-text">{{$address}}</p>
             <a class="btn btn-primary" href="#!">Read more →</a>
         </div>
     </div>
