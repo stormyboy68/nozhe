@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nozhe/
+    - export DEPLOYPATH=/home/nozhe/storage/framework/
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp * $DEPLOYPATH
    
