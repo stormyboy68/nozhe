@@ -1,5 +1,5 @@
 ---
 deployment:
-    tasks:
-        - export DEPLOYPATH=/home/nozhe
-        - /bin/cp * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/nozhe/
+    - /bin/cp * $DEPLOYPATH
